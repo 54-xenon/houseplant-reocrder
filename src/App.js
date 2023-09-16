@@ -1,12 +1,10 @@
 import './App.css';
-import Feader from './component/Feader';
 
 function App() {
   return (
     <div className="App">
-      <Feader />
+      <p>Apple</p>
     </div>
   );
 }
-
 export default App;
