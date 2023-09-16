@@ -1,9 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/*.{html,js,jsx,ts}"],
+  content: ['./src/component/**/*.{js,jsx}','./src/**/*.{html,js,jsx}'],
   theme: {
     extend: {},
   },
   plugins: [],
 }
 
+// なんかtailwind.config.js(設定用のファイル)のcontent(適用する範囲を指定する)を変更すると良さそう
+// App.jsとcomponentフォルダを適用の範囲を指定すると改善
