@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header01 {
+    padding: 16px 24px;
+    background-color: #df6b6b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header01-logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header01-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header01-item:hover {
+    color: rgb(162, 162, 162);
+    transition: 0.5s;
+}
