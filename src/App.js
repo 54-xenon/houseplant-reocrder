@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './compornent/Header';
+import Top from './compornent/Top';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       {/* なぜかApp.jsの方は適用されるけどコンポーネントは適用されない。→App.cssの無効化でなぜか修正できた。競争するのだろうか*/}
       {/* まずはヘッダーを作成していく */}
       <Header />
+      <Top />
     </div>
   );
 }

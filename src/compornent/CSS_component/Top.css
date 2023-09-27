@@ -1,0 +1,28 @@
+/* これはtopコンポーネント内に共通するCCSファイル */
+/* 余白をなくして、レイアウトを設計しやすくする */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* buttonコンポーネントのCSSファイルを開く */
+.button_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+button {
+    margin-right: 30px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color: #ff8a1d;
+    border-radius: 10%;
+}
+
+button:hover {
+    color: #fff;
+    transition: 0.5s;
+}

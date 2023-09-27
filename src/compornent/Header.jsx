@@ -16,10 +16,6 @@ const Header = () => {
           </nav>
         </header>
       </section>
-      <section>
-        {/* メインとなるセクション */}
-        
-      </section>
     </div>
   )
 }

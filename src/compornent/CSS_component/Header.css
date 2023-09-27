@@ -6,7 +6,7 @@
 
 .header01 {
     padding: 16px 24px;
-    background-color: #df6b6b;
+    background-color: #ff8a1d;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,6 +26,6 @@
 }
 
 .header01-item:hover {
-    color: rgb(162, 162, 162);
+    color: rgb(255, 255, 255);
     transition: 0.5s;
 }
